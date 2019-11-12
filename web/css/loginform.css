@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap&subset=cyrillic');
+.hide {
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.window {
+    position: absolute;
+    background: none;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    display: none;
+}
+
+.window .login {
+    position: absolute;
+    top: 20%;
+    left: 37.5%;
+    height: 20%;
+    width: 25%;
+}
+
+.window .login .login-screen {
+    position: relative;
+    background-color: rgb(24, 3, 58);
+    padding: 20px;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+}
+
+.window .login .app-title {
+    font-family: 'Kelly Slab', cursive;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    color: rgb(243, 221, 20);
+}
+
+.window .login .login-form {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.window .login .control-group {
+    font-family: 'Kelly Slab', cursive;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.window .login input {
+    font-family: 'Kelly Slab', cursive;
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 5px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 100%;
+    padding: 10px 0;
+    width: 90%;
+    transition: border .5s;
+}
+
+.window .login input:focus {
+    border: 2px solid #3498DB;
+    box-shadow: none;
+}
+
+.window .login button {
+    font-family: 'Kelly Slab', cursive;
+    border: 5px solid transparent;
+    background: #3498DB;
+    text-align: center;
+    color: #ffffff;
+    font-size: 29px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.5s;
+    display: block;
+    width: 94%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.window .login button:hover {
+    background-color: #2980B9;
+    border: 2px solid #3498DB;
+    box-shadow: none;
+    width: 100%;
+}

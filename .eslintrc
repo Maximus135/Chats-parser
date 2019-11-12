@@ -1,0 +1,31 @@
+{
+    "plugins": [
+        "node"
+    ],
+    "extends": [
+        "eslint:recommended"
+    ],
+    "rules": {
+        "no-console": "off",
+        "no-restricted-syntax": [
+            "error",
+            {
+                "selector": "CallExpression[callee.object.name='console'][callee.property.name!=/^(log|warn|error|info|trace)$/]",
+                "message": "Unexpected property on console object was called"
+            }
+        ],
+        "node/exports-style": [
+            "error",
+            "module.exports"
+        ]
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module"
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    }
+}

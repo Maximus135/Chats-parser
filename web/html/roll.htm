@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Roll</title>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="../js/runer.js"></script>
+    <link href="../css/roll.css" rel="stylesheet">
+</head>
+
+<body>
+    <form id="input_src" class="input_src" onsubmit="mySrc(this)">
+        <input type="text" id="src" name="src" value="" placeholder="v=**********" required>
+        <button type="submit" name="btn_src" id="btn_src">Ввести</button>
+    </form>
+
+    <form id="input_key" class="input_key" onsubmit="myKey(this)">
+        <input type="text" id="key" name="key" value="" placeholder="слово" required>
+        <button type="submit" name="btn_src" id="btn_src">Ввести</button>
+    </form>
+
+    <form id="start" onsubmit="Start()">
+        <span class="chat_log">Чат</span>
+        <textarea type="text" id="chat" class="chat" name="chat" value="" readonly></textarea>
+        <span class="user_log" id='participants'>Участиники</span>
+        <span class="user_log" id='winer'>Победитель</span>
+        <textarea type="text" id="user" class="user" name="user" value="" readonly></textarea>
+        <button type="submit" class="btn_str" name="btn_str" id="btn_str">Старт</button>
+    </form>
+
+    <form id="stop" onsubmit="Stop()">
+        <button class="btn_stop" name="btn_stop" id="btn_stop">Стоп</button>
+    </form>
+
+    <form id="choose" onsubmit="Choose()">
+        <button type="submit" class="btn_choose" name="btn_choose" id="btn_choose">Выбрать</button>
+    </form>
+    <button onclick="window.location='/'" class="button_back" id="close">Выход</button>
+</body>
+
+</html

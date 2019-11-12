@@ -1,0 +1,191 @@
+.input_src {
+    position: absolute;
+    top: 20%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input_src input {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input_src button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6em;
+    height: 2.5em;
+    line-height: 2.4em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    color: #000;
+    outline: none;
+    border: 1px solid rgba(27, 29, 31, 0.8);
+    border-top-color: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    background: rgb(206, 220, 231) linear-gradient(rgb(206, 220, 231), rgb(89, 106, 114));
+    box-shadow: 0 -1px rgba(10, 21, 28, .9) inset, 0 1px rgba(255, 255, 255, .5) inset;
+}
+
+.input_key {
+    position: absolute;
+    top: 45%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input_key input {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input_key button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6em;
+    height: 2.5em;
+    line-height: 2.4em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    color: #000;
+    outline: none;
+    border: 1px solid rgba(27, 29, 31, 0.8);
+    border-top-color: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    background: rgb(206, 220, 231) linear-gradient(rgb(206, 220, 231), rgb(89, 106, 114));
+    box-shadow: 0 -1px rgba(10, 21, 28, .9) inset, 0 1px rgba(255, 255, 255, .5) inset;
+}
+
+.button_back {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 6em;
+    height: 2.5em;
+    line-height: 2.4em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    color: #000;
+    outline: none;
+    border: 1px solid rgba(27, 29, 31, 0.8);
+    border-top-color: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    background: rgb(206, 220, 231) linear-gradient(rgb(206, 220, 231), rgb(89, 106, 114));
+    box-shadow: 0 -1px rgba(10, 21, 28, .9) inset, 0 1px rgba(255, 255, 255, .5) inset;
+}
+
+.chat {
+    position: absolute;
+    right: 3%;
+    top: 10%;
+    width: 30%;
+    height: 80%;
+    text-align: center;
+}
+
+.user {
+    position: absolute;
+    left: 3%;
+    top: 10%;
+    width: 30%;
+    height: 80%;
+    text-align: center;
+}
+
+.btn_str {
+    position: absolute;
+    right: 3%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6em;
+    height: 2.5em;
+    line-height: 2.4em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    color: #000;
+    outline: none;
+    border: 1px solid rgba(27, 29, 31, 0.8);
+    border-top-color: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    background: rgb(206, 220, 231) linear-gradient(rgb(206, 220, 231), rgb(89, 106, 114));
+    box-shadow: 0 -1px rgba(10, 21, 28, .9) inset, 0 1px rgba(255, 255, 255, .5) inset;
+}
+
+.btn_choose {
+    position: absolute;
+    right: 3%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6em;
+    height: 2.5em;
+    line-height: 2.4em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    color: #000;
+    outline: none;
+    border: 1px solid rgba(27, 29, 31, 0.8);
+    border-top-color: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    background: rgb(206, 220, 231) linear-gradient(rgb(206, 220, 231), rgb(89, 106, 114));
+    box-shadow: 0 -1px rgba(10, 21, 28, .9) inset, 0 1px rgba(255, 255, 255, .5) inset;
+}
+
+.btn_stop {
+    position: absolute;
+    right: 3%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6em;
+    height: 2.5em;
+    line-height: 2.4em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    color: #000;
+    outline: none;
+    border: 1px solid rgba(27, 29, 31, 0.8);
+    border-top-color: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    background: rgb(206, 220, 231) linear-gradient(rgb(206, 220, 231), rgb(89, 106, 114));
+    box-shadow: 0 -1px rgba(10, 21, 28, .9) inset, 0 1px rgba(255, 255, 255, .5) inset;
+}
+
+.chat_log {
+    position: absolute;
+    left: 82%;
+    top: 7%;
+    transform: translate(-50%, -50%);
+}
+
+.user_log {
+    position: absolute;
+    left: 18%;
+    top: 7%;
+    transform: translate(-50%, -50%);
+}

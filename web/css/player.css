@@ -1,0 +1,71 @@
+.iframe {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    top: 2%;
+    height: 50%;
+}
+
+.image_1 {
+    position: absolute;
+    top: 54%;
+    left: 25%;
+    width: 24%;
+    height: 25%;
+}
+
+.image_2 {
+    position: absolute;
+    top: 54%;
+    left: 51%;
+    width: 24%;
+    height: 25%;
+}
+
+a.button8 {
+    position: absolute;
+    top: 2%;
+    right: 0.7%;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+
+a.button8:hover {
+    background: rgba(255, 255, 255, .2);
+}
+
+a.button8:active {
+    background: white;
+}
+
+a.button9 {
+    position: absolute;
+    top: 2%;
+    left: 0.7%;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+
+a.button9:hover {
+    background: rgba(255, 255, 255, .2);
+}
+
+a.button9:active {
+    background: white;
+}

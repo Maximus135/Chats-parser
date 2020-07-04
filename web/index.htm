@@ -8,23 +8,19 @@
     <link href="css/player.css" rel="stylesheet">
     <link href="css/loginform.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap&subset=cyrillic,cyrillic-ext"
+        rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="js/jquery.backgroundvideo.min.js"></script>
     <script src="js/load_back.js"></script>
     <script src="js/loginform.js"></script>
-    <title>Rchiem</title>
+    <title>Parser</title>
 </head>
 
 <body bgcolor="#000">
     <div class="iframe">
-        <iframe src="https://player.twitch.tv/?channel=rchiem" frameborder="0" allowfullscreen="true" scrolling="no" style="border-style: none;width: 100%; height: 100%;"></iframe>
-    </div>
-    <div class="image_1">
-        <img src="img/Booi.jpg" width="100%" height="100%">
-    </div>
-    <div class="image_2">
-        <img src="img/Azart_Play.jpg" width="100%" height="100%">
+        <iframe src="https://player.twitch.tv/?channel=dota2ruhub&parent=www.example.com" frameborder="0"
+            allowfullscreen="true" scrolling="no" style="border-style: none;width: 100%; height: 100%;"></iframe>
     </div>
     <a class="button8" href="/user" id="roll">Roll</a>
     <a onclick="logout()" class="button9" id="out">Выйти</a>
@@ -39,16 +35,19 @@
                 <form name="check" onsubmit="mySubmit(this)">
                     <div class="login-form">
                         <div class="control-group">
-                            <input type="text" class="login-field" value="" placeholder="логин" id="login_name" name="login_name">
+                            <input type="text" class="login-field" value="" placeholder="логин" id="login_name"
+                                name="login_name">
                             <label class="login-field-icon fui-user" for="login-name"></label>
                         </div>
 
                         <div class="control-group">
-                            <input type="password" class="login-field" value="" placeholder="пароль" id="login_pass" name="login_pass">
+                            <input type="password" class="login-field" value="" placeholder="пароль" id="login_pass"
+                                name="login_pass">
                             <label class="login-field-icon fui-lock" for="login-pass"></label>
                         </div>
 
-                        <button type="submit" name="btn" id="btn" class="btn btn-primary btn-large btn-block">Войти</button>
+                        <button type="submit" name="btn" id="btn"
+                            class="btn btn-primary btn-large btn-block">Войти</button>
                     </div>
                 </form>
             </div>

@@ -1,2 +1,4 @@
 .env
 bot_info.txt
+/node_modules
+/dist
